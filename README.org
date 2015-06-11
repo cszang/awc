@@ -1,0 +1,18 @@
+* awc
+
+  Extract soil water holding capacity for a coordinate pair from Webb
+  et al.'s global data base of texture derived AWC.
+
+  #+begin_src R 
+    devtools::install_github("cszang/awc")
+    library(awc)
+    get_awc(list(lon = 6.1, lat = 50.75))
+  #+end_src
+
+** Reference
+
+   Webb, R. W., C. E. Rosenzweig, and E. R. Levine. 2000. Global Soil
+   Texture and Derived Water-Holding Capacities (Webb et al.). Data
+   set. Available on-line [http://www.daac.ornl.gov] from Oak Ridge
+   National Laboratory Distributed Active Archive Center, Oak Ridge,
+   Tennessee, U.S.A. doi:10.3334/ORNLDAAC/548.

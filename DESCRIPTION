@@ -1,0 +1,8 @@
+Package: awc
+Title: Get Soil Water Holding Capacity from Webb et al.'s Data Base
+Version: 0.1
+Authors@R: person("Christian", "Zang", email = "christian.zang@wzw.tum.de", role = c("aut", "cre"))
+Description: This package has only function that gets the AWC for a given point from Webb et al.'s data base of texture derived soil water holding capacity.
+Depends: R (>= 3.2.0)
+License: GPL-3
+LazyData: true
